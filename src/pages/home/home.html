@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Live Chat Con Amigos
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+        <ion-label floating>Nombre de Usuario</ion-label>
+        <ion-input type="text" [(ngModel)]="username"></ion-input>
+    </ion-item>
+    <button id="log" ion-button block outline (click)="loginUser()">Login</button>
+    <img src="../assets/icon/descarga.png" />
+    <button id="news" ion-button size="small" block outline (click)="vernoticias()"><ion-icon id="logo" name="logo-youtube"></ion-icon></button>
+
+</ion-content>
