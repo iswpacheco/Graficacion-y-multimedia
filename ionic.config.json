@@ -1,0 +1,7 @@
+{
+  "name": "Techpeople",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
